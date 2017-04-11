@@ -1,0 +1,121 @@
+/*
+p {
+    width: 400px;
+    height: 200px;
+    background-color: #CECECE;
+    margin: 20px;
+}</a>
+
+*/
+
+div {
+    color: #fff;
+}
+
+.green {
+    background-color: #0f0;
+    width: 33.3%;
+    height: 100px;
+    float: left;
+}
+
+.red {
+    background-color: #f00;
+    width: 33.3%;
+    height: 100px;
+    float: left;
+    
+}
+
+.blue {
+    background-color: #00f;
+    width: 100%;
+    height: 45px;
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://static.pexels.com/photos/107904/pexels-photo-107904.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 20px;
+
+}
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    
+}
+/* Above we target the links in the ul in the nav */
+
+nav ul a:hover {
+    background-color: #0f0;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+}  
+
+p {
+    font-size: .9em;
+    padding: 25px;
+    line-height: 2em;
+}
+
+img {
+    width: 15%;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px double #000;
+    padding-bottom: 5px;
+    margin: 0 20px;
+}
+.submenu {
+    text-align: center;
+}
+
+.submenu li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #777;
+    font-family: arial, sans-serif;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+    
+}
+
+.top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    background-color: rgb(119,119,119);
+    background-color: rgba(119,119,119,0.5);
+    text-align: center;
+    padding: 20px;
+    
+}
